@@ -1,6 +1,6 @@
 # Feather-CMS
 
-This build is for development purpose only. This project is not finished and i not intended for public use.
+This build is for development purpose only. This project is not finished and is not intended for public use.
 
 This only has some core feature.
 
