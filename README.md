@@ -1,7 +1,7 @@
 # Feather-CMS
 
 This build is for development purpose only. This project is not finished and is not intended for public use.
-
+Every change to code is welcome even if it means complete rewrite of it.
 This only has some core feature.
 
 Features in this build:
