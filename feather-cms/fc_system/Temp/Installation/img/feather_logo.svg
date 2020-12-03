@@ -1,0 +1,68 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137.24" height="61.77" viewBox="0 0 137.24 61.77">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-8 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-6 {
+        font-size: 28.66px;
+        font-family: ComicSansMS, Comic Sans MS;
+      }
+
+      .cls-7 {
+        font-size: 10.08px;
+        font-family: SegoeUISymbol, Segoe UI Symbol;
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-5);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="72.96" y1="136.88" x2="72.96" y2="136.88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="aqua"/>
+      <stop offset="0.46" stop-color="#29abe2"/>
+      <stop offset="1" stop-color="#2e3192"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="128.73" y1="40.13" x2="128.73" y2="40.13" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="180.67" y1="108.3" x2="189.94" y2="159.96" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="129.76" y1="140.25" x2="129.76" y2="140.25" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="75.58" y1="144.07" x2="75.58" y2="144.07" xlink:href="#linear-gradient"/>
+  </defs>
+  <title>feather_logo</title>
+  <path class="cls-1" d="M73,136.88" transform="translate(-65.43 -103.85)"/>
+  <path class="cls-2" d="M128.73,40.13" transform="translate(-65.43 -103.85)"/>
+  <g>
+    <path class="cls-3" d="M168.36,163.83l2.41-6.58.54-1c7.28-4.52,9.7-6.47,9.45-6.95s-3.25.49-3.28.35a26.87,26.87,0,0,0,5-2.06c3.12-1.89,5.42-5.07,4.82-5.93-.48-.71-2.9.11-2.93,0s2.49-.22,4.17-1.89c.55-.54.57-.81,1.46-2.52,1.86-3.56,3-4.75,2.61-5.22s-2.88.63-2.93.51,2.47-.76,4-2.79a6.56,6.56,0,0,0,1.11-2.49c1.23-5,2.55-6.16,2.17-6.43-.59-.42-3.07,2.24-3.21,2.1s2.5-2.77,4-4.78c2-2.67,4.14-6.89,4.48-13.74-2.51,2.2-4.67,3.88-6.22,5-2.92,2.17-5,3.45-7.1,6.16a15.78,15.78,0,0,0-1.86,2.9,32.76,32.76,0,0,0-1.66,5c-.18,0,.53-3-.14-3.29s-2.79,2.16-3.74,5.1c-.71,2.2-.56,4.62-.73,4.62s0-2.67-.84-2.94-2.29,1.95-2.78,2.64a25.31,25.31,0,0,0-2.11,3.51h0c-1.2,2,.17,4.57.14,4.58s-.54-2.47-1.28-2.5-1.77,3.23-2.14,5.05c-.53,2.63-.46,4.74-.75,4.75s-.46-2.57-1-2.61-1.1,2.08-1.31,3.66a13.14,13.14,0,0,0,.24,4.79,8.64,8.64,0,0,0,1,2.86c.67,1.08,1.48,1.68,1.35,2.55a1.68,1.68,0,0,1-.54,1" transform="translate(-65.43 -103.85)"/>
+    <path class="cls-4" d="M170.77,157.25a65.14,65.14,0,0,1,3.65-9.5c1.4-2.93,1.87-3.32,4.73-8.58,3.19-5.87,3.41-6.85,5.42-10.15a70.3,70.3,0,0,1,5.35-7.59L202.46,104" transform="translate(-65.43 -103.85)"/>
+  </g>
+  <path class="cls-5" d="M129.76,140.25" transform="translate(-65.43 -103.85)"/>
+  <text class="cls-6" transform="translate(0 39.19)">Feather</text>
+  <text class="cls-7" transform="translate(0 53.81)">CMS</text>
+  <path class="cls-8" d="M75.58,144.07" transform="translate(-65.43 -103.85)"/>
+</svg>

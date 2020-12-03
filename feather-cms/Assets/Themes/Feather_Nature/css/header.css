@@ -1,0 +1,49 @@
+.header {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/background-header.jpg') 50% 50% no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-content {
+    display: grid;
+    grid-template-rows: 2, 1fr;
+    grid-template-columns: 1, 1fr;
+}
+
+.header-item {
+    text-align: center;
+    height: 10%;
+}
+
+#title-header {
+    height: 100px;
+    font-weight: bold;
+    font-size: 10vw;
+    color: #ffffff;
+}
+
+#slogan-header {
+    font-size: 30px;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .header-item {
+        height: auto;
+        margin: -15px 0;
+    }
+
+    #title-header {
+        font-size: 15vw;
+    }
+
+    #slogan-header {
+        font-size: 20px;
+    }
+
+}
