@@ -14,3 +14,5 @@ Features in this build:
 If you want to contribute and you don't know where to start hit me up.
 
 If you know what you are doing i suggest you to use Debugger plugin made for Feather CMS you can find it here https://github.com/ElStefanos/Feather-CMS-Debugger-Plugin .
+
+This will work best on virtual host.
