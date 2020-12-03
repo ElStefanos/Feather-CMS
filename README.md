@@ -9,7 +9,7 @@ Features in this build:
   2. Plugins
   3. Installation process.
   4. Admin panel (currently serves no purpose except to activate Debugger)
-  5. Made for Debugger plugin
+  5. Ready for Debugger plugin
   
 If you want to contribute and you don't know where to start hit me up.
 
