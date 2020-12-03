@@ -7,7 +7,7 @@ This only has some core feature.
 Features in this build:
   1. Themes
   2. Plugins
-  3.installation process.
+  3. Installation process.
   
 If you want to contribute and you don't know where to start hit me up.
 
