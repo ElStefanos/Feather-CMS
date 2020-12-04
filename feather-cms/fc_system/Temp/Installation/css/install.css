@@ -139,6 +139,16 @@ body {
     cursor: pointer;
 }
 
+
+fieldset[disabled = 'disabled']{
+    display: none;
+}
+
+fieldset {
+    border: none;
+}
+
+
 @media only screen and (max-width: 800px) {
 
     .welcome h1 {

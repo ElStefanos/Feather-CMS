@@ -26,13 +26,21 @@ $(function () {
     $('#f1').on('submit', function (e) {
     
       e.preventDefault();
-    
+      var data = '';
       $.ajax({
+        dataType: 'json',
         type: 'post',
         url: './connect.php',
         data: $('form').serialize(),
-        success: function () {
-           console.log('succes f1');
+        success: function (data) {
+           var message = data[0];
+           var status = data[1];
+           console.log(status);
+           alert(message);
+           if (status === '1') {
+             $('#f1f').attr('disabled', true);
+             $('#f2f').attr('disabled', false);
+           }
         }
       });
     
@@ -46,11 +54,22 @@ $(function () {
       e.preventDefault();
     
       $.ajax({
+        dataType: 'json',
         type: 'post',
         url: './create_acc.php',
         data: $('form').serialize(),
-        success: function () {
+        success: function (data) {
            console.log('succes f2');
+           var message = data[0];
+           var status = data[1];
+           console.log(status);
+           
+           if (status == 1) {
+             $('#f2f').attr('disabled', true);
+             $('#f3f').attr('disabled', false);
+           } else {
+              alert(message);
+           }
         }
       });
     
@@ -59,15 +78,30 @@ $(function () {
 });
 $(function () { 
     $('#f3').on('submit', function (e) {
-    
+      
       e.preventDefault();
     
       $.ajax({
+        dataType: 'json',
         type: 'post',
         url: './install.php',
         data: $('form').serialize(),
-        success: function () {
-           console.log('succes f3');
+        success: function (data) {
+          console.log('succes f2');
+          var message = data[0];
+          var status = data[1];
+          console.log(status);
+          
+          if (status == 1) {
+            $(document).ready(function(){
+   
+              alert('Now you can proceed. You are all set');
+              window.history.back();
+           
+           });
+          } else {
+             alert(message);
+          }
         }
       });
     

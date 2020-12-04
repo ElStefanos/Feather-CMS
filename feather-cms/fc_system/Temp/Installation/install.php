@@ -15,5 +15,21 @@ include '../../Source/API_PHP/fc_api_1.0a.php';
     $date = date('Y-m-d H:i:s');
     $stmt->execute();
     $stmt->close();
+
+    $stmt = $conn->prepare("SELECT * FROM `fc_info` WHERE `web_name` = ?");
+    $stmt->bind_param('s', $web_name);
+    $stmt->execute();
+    $stmt->store_result();
+    $rows = $stmt->num_rows;
+
+    if($rows < 1) {
+        $response = array('Error creating website info', '0');
+        echo json_encode($response);
+    } else {
+        $response = array('Success website info', '1');
+        echo json_encode($response);
+    }
+
+    $stmt->close();
     $conn->close();
 ?>
